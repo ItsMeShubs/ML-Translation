@@ -1,5 +1,6 @@
 <script>
   import { onMount } from 'svelte';
+  import SavingsCalculator from '../../components/SavingsCalculator.svelte';
   let text = '';
   let translatedText = '';
   let isLoading = false;
@@ -146,6 +147,7 @@
   <a href="#" class="demo-button">Book a Demo</a>
 </div>
 
+<SavingsCalculator />
 
 <div class="pricing-section">
   <h2>Pricing Plans</h2>
